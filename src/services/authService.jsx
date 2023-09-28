@@ -1,6 +1,6 @@
 import { requestService } from "./requester"
 
-const baseURL = `http://localhost:3000/auth`;
+const baseURL = `https://skyline-estate-api.onrender.com/auth`;
 
 
 export const authServiceFactory = () => {
