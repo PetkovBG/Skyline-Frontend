@@ -1,6 +1,6 @@
 import { requestService } from './requester';
 
-const baseURL = 'http://localhost:3000/properties';
+const baseURL = 'https://skyline-estate-api.onrender.com/properties';
 
 const propertyServiceFactory = () => {
     const request = requestService();
