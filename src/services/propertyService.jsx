@@ -34,7 +34,7 @@ const propertyServiceFactory = () => {
         const likeObj = {
             propertyId,
         };
-        await request.put('http://localhost:3000/users/like', likeObj);
+        await request.put('https://skyline-estate-api.onrender.com/users/like', likeObj);
     };
 
     const getMostRecentProperties = async (endpoint) => {
