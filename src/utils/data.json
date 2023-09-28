@@ -1,0 +1,343 @@
+{
+    "property": {
+        "propertyId": "unique_property_id",
+        "title": "Property title",
+        "description": "Property description",
+        "type": "Property type",
+        "location": {
+            "address": "Property address",
+            "city": "City",
+            "state": "State",
+            "zipcode": "ZIP code"
+        },
+        "price": "Property price",
+        "area": "Property area",
+        "bedrooms": "Number of bedrooms",
+        "bathrooms": "Number of bathrooms",
+        "images": ["image_url1", "image_url2", "image_url3"],
+        "features": ["feature1", "feature2", "feature3"],
+        "userId": "user_id",
+        "status": "for rent, for sale, rented, sold, inactive",
+        "listingCreation": "timestamp",
+        "listingExpiration": "timestamp"
+    },
+
+    "user": {
+        "userId": "unique_user_id",
+        "role": "user, admin",
+        "firstName": "Ivan",
+        "lastName": "Petkov",
+        "email": "user@example.com",
+        "password": "hashed_password",
+        "phoneNumber": "Agent phone number",
+        "favorites": ["property_id1", "property_id2", "property_id3"],
+        "properties": ["property_id1", "property_id2", "property_id3"]
+    },
+
+    "navLinks": [
+        {
+            "title": "Home",
+            "url": "/"
+        },
+        {
+            "title": "For Rent",
+            "url": "/for-rent"
+        },
+        {
+            "title": "For Sale",
+            "url": "/for-sale"
+        },
+        {
+            "title": "Create",
+            "url": "/private/create"
+        },
+        {
+            "title": "About Us",
+            "url": "/about-us"
+        },
+        {
+            "title": "Contacts",
+            "url": "/contacts"
+        }
+    ],
+    "footer": {
+        "sections": [
+            {
+                "label": "For Rent",
+                "url": "/for-rent",
+                "links": [
+                    {
+                        "title": "Apartments",
+                        "url": "/for-rent?type=apartment"
+                    },
+                    {
+                        "title": "Villas",
+                        "url": "/for-rent?type=villa"
+                    },
+                    {
+                        "title": "Offices",
+                        "url": "/for-rent?type=office"
+                    }
+                ]
+            },
+            {
+                "label": "For Sale",
+                "url": "/for-sale",
+                "links": [
+                    {
+                        "title": "Apartments",
+                        "url": "/for-sale?type=apartment"
+                    },
+                    {
+                        "title": "Villas",
+                        "url": "/for-sale?type=villa"
+                    },
+                    {
+                        "title": "Offices",
+                        "url": "/for-sale?type=office"
+                    }
+                ]
+            },
+            {
+                "label": "Information",
+                "links": [
+                    {
+                        "title": "About Us",
+                        "url": "/about-us"
+                    },
+                    {
+                        "title": "Contacts",
+                        "url": "/contacts"
+                    },
+                    {
+                        "title": "Terms And Conditions",
+                        "url": "/terms-and-conditions"
+                    },
+                    {
+                        "title": "FAQ And Policy",
+                        "url": "/faq-and-policy"
+                    }
+                ]
+            }
+        ],
+        "contactInfo": {
+            "phone": "+359 123 123 1234",
+            "email": "info@example.com",
+            "address": "st. Ivan Vazov 32, Sofia"
+        },
+        "socialMedia": [
+            {
+                "name": "Facebook",
+                "icon": "facebook",
+                "url": "https://www.facebook.com"
+            },
+            {
+                "name": "Twitter",
+                "icon": "twitter",
+                "url": "https://www.twitter.com"
+            },
+            {
+                "name": "Instagram",
+                "icon": "instagram",
+                "url": "https://www.instagram.com"
+            }
+        ]
+    },
+
+    "propertiesExample": {
+        "propertiesExample": [
+            {
+                "propertyId": "1",
+                "title": "Cozy Apartment in Sofia",
+                "description": "A beautiful and cozy apartment located in the heart of Sofia.",
+                "type": "Apartment",
+                "location": {
+                    "address": "123 Main Street",
+                    "city": "Sofia",
+                    "state": "Sofia City",
+                    "zipcode": "1000"
+                },
+                "price": "200000",
+                "area": "80",
+                "bedrooms": "2",
+                "bathrooms": "1",
+                "images": [
+                    "https://source.unsplash.com/800x600/?apartment",
+                    "https://source.unsplash.com/800x600/?interior",
+                    "https://source.unsplash.com/800x600/?living-room"
+                ],
+                "features": [
+                    "Balcony",
+                    "Central Heating",
+                    "Parking",
+                    "Wooden Floors",
+                    "Security System"
+                ],
+                "userId": "user1",
+                "status": "for sale",
+                "listingCreation": "2023-07-01T10:00:00Z",
+                "listingExpiration": "2023-09-30T23:59:59Z"
+            },
+            {
+                "propertyId": "2",
+                "title": "Spacious Villa in Varna",
+                "description": "A luxurious villa with stunning sea views in Varna, perfect for a family getaway.",
+                "type": "Villa",
+                "location": {
+                    "address": "456 Beach Road",
+                    "city": "Varna",
+                    "state": "Varna",
+                    "zipcode": "9000"
+                },
+                "price": "500000",
+                "area": "300",
+                "bedrooms": "5",
+                "bathrooms": "3",
+                "images": [
+                    "https://source.unsplash.com/800x600/?villa",
+                    "https://source.unsplash.com/800x600/?luxury",
+                    "https://source.unsplash.com/800x600/?swimming-pool"
+                ],
+                "features": [
+                    "Swimming Pool",
+                    "Garden",
+                    "Security System",
+                    "Home Theater",
+                    "Fitness Room"
+                ],
+                "userId": "user2",
+                "status": "for sale",
+                "listingCreation": "2023-06-15T09:30:00Z",
+                "listingExpiration": "2023-09-15T23:59:59Z"
+            },
+            {
+                "propertyId": "3",
+                "title": "Modern Office Space in Plovdiv",
+                "description": "A modern and spacious office space located in the business district of Plovdiv.",
+                "type": "Office",
+                "location": {
+                    "address": "789 Business Avenue",
+                    "city": "Plovdiv",
+                    "state": "Plovdiv",
+                    "zipcode": "4000"
+                },
+                "price": "1500",
+                "area": "200",
+                "bedrooms": "0",
+                "bathrooms": "2",
+                "images": [
+                    "https://source.unsplash.com/800x600/?office",
+                    "https://source.unsplash.com/800x600/?workspace",
+                    "https://source.unsplash.com/800x600/?meeting-room"
+                ],
+                "features": [
+                    "Conference Room",
+                    "High-speed Internet",
+                    "Elevator",
+                    "Cafeteria",
+                    "Parking Garage"
+                ],
+                "userId": "user3",
+                "status": "for rent",
+                "listingCreation": "2023-07-10T08:45:00Z",
+                "listingExpiration": "2024-01-10T23:59:59Z"
+            },
+            {
+                "propertyId": "4",
+                "title": "Modern Apartment in Burgas",
+                "description": "A modern and stylish apartment located in the vibrant city of Burgas.",
+                "type": "Apartment",
+                "location": {
+                    "address": "789 Beach Boulevard",
+                    "city": "Burgas",
+                    "state": "Burgas",
+                    "zipcode": "8000"
+                },
+                "price": "180000",
+                "area": "90",
+                "bedrooms": "3",
+                "bathrooms": "2",
+                "images": [
+                    "https://source.unsplash.com/800x600/?apartment",
+                    "https://source.unsplash.com/800x600/?interior",
+                    "https://source.unsplash.com/800x600/?living-room"
+                ],
+                "features": [
+                    "Balcony",
+                    "Parking",
+                    "Air Conditioning",
+                    "Gym",
+                    "Security System"
+                ],
+                "userId": "user4",
+                "status": "for sale",
+                "listingCreation": "2023-08-05T11:15:00Z",
+                "listingExpiration": "2023-12-31T23:59:59Z"
+            },
+            {
+                "propertyId": "5",
+                "title": "Luxury Villa in Sunny Beach",
+                "description": "A luxurious beachfront villa in the popular resort town of Sunny Beach.",
+                "type": "Villa",
+                "location": {
+                    "address": "123 Beachfront Road",
+                    "city": "Sunny Beach",
+                    "state": "Burgas",
+                    "zipcode": "8240"
+                },
+                "price": "950000",
+                "area": "450",
+                "bedrooms": "6",
+                "bathrooms": "4",
+                "images": [
+                    "https://source.unsplash.com/800x600/?villa",
+                    "https://source.unsplash.com/800x600/?luxury",
+                    "https://source.unsplash.com/800x600/?swimming-pool"
+                ],
+                "features": [
+                    "Swimming Pool",
+                    "Beach Access",
+                    "Garden",
+                    "Home Theater",
+                    "Outdoor Kitchen"
+                ],
+                "userId": "user5",
+                "status": "for sale",
+                "listingCreation": "2023-07-25T09:30:00Z",
+                "listingExpiration": "2024-01-25T23:59:59Z"
+            },
+            {
+                "propertyId": "6",
+                "title": "Office Space in Sofia City Center",
+                "description": "A spacious office space located in the bustling city center of Sofia.",
+                "type": "Office",
+                "location": {
+                    "address": "456 Business Street",
+                    "city": "Sofia",
+                    "state": "Sofia City",
+                    "zipcode": "1000"
+                },
+                "price": "3000",
+                "area": "250",
+                "bedrooms": "0",
+                "bathrooms": "1",
+                "images": [
+                    "https://source.unsplash.com/800x600/?office",
+                    "https://source.unsplash.com/800x600/?workspace",
+                    "https://source.unsplash.com/800x600/?meeting-room"
+                ],
+                "features": [
+                    "Meeting Rooms",
+                    "High-speed Internet",
+                    "Parking",
+                    "Cafeteria",
+                    "24/7 Security"
+                ],
+                "userId": "user6",
+                "status": "for rent",
+                "listingCreation": "2023-08-10T08:45:00Z",
+                "listingExpiration": "2024-02-10T23:59:59Z"
+            }
+        ]
+    }
+}
