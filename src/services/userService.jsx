@@ -1,6 +1,6 @@
 import { requestService } from "./requester";
 
-const baseURL = 'http://localhost:3000/users';
+const baseURL = 'https://skyline-estate-api.onrender.com/users';
 
 const userServiceFactory = () => {
 
